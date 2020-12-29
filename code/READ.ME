@@ -1,0 +1,27 @@
+This program has been developed in Python programming language (version 3.6.8), with the use of the following external libraries:
+* OpenAI Gym,
+* Numpy,
+* Matplotlib.
+
+They can be installed by executing the following instructions in the terminal/command window:
+pip3 install gym
+pip3 install numpy
+pip3 install matplotlib
+
+In order to run the program, the following instruction in the terminal/command windoww needs to be executed:
+python3 acml_a4.py
+
+Note: This program has been developed on a Linux OS (Ubuntu). Depeding on the OS, in which the program has to be run, in the instrictions above "pip" and "python" may be required in place of "pip3" and "python3" respectively.
+
+Depending on the SLOW parameter value (inside the code, line 12), various outputs can be seen:
+* for SLOW = False, the number of steps required to finish each episode is sequentially printed. Next, a plot visualizing State Value function in a separate window is displayed.
+* for SLOW = True, for each episode, additional information is printed (current observation, reward and whether the episode is finished). Furthermore, the graphical simulation of the running algorithm (the moving car) in a sparate window is displayed. Also in this case, the State Value function plot is visualized in the end.
+
+Note:
+The only modifiable parameters are:
+* ALPHA (line 7),
+* GAMMA (line 8),
+* NUM_EPISODES (line 9),
+* SLOW (line 12).
+
+Value modification of any other parametrs will result in incorrect functioning of the program.
